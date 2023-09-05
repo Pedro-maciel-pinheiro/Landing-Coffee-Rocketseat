@@ -1,0 +1,76 @@
+@media (max-width: 1280px) {
+	body {
+		padding: 0 40px;
+	}
+}
+
+
+@media (max-width: 640px ) {
+
+	.list{
+        display: none;
+        
+	}
+
+    #logo{
+        display: block;
+        padding: 5%;
+    }
+
+    #menu-logo {
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        font-size: 10px;
+      
+        outline: #996dff solid 1px;
+        border-radius: 5px;
+        color: white;
+      
+        background-color: transparent;
+      }
+
+      #request {
+        
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+      
+        outline: #996dff solid 1px;
+        border-radius: 5px;
+        background-color: transparent;
+        color: rgb(255, 255, 255);
+      }
+      
+
+    p {
+        display: block;
+    
+        padding: 25px;
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .imagem-tittle img{
+        
+        width: 250px;
+        margin-top: 20%;
+
+    
+    }
+
+    .imagem-coffee {
+        
+          display: flex;
+          justify-content: center;
+          
+     }
+
+     .imagem-coffee img {
+           width: 330px;
+           margin-right: 20%;
+
+     }
+}
+
