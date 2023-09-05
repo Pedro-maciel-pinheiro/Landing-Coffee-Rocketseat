@@ -43,6 +43,10 @@
       }
       
 
+      #reque{
+        display:none;
+      }
+
     p {
         display: block;
     

@@ -20,19 +20,22 @@ body {
 
 .menu {
   padding: 5px;
-
+  
   font-size: 25px;
   cursor: pointer;
+  
 }
 
 .list {
   display: flex;
+  justify-content: space-around;
 }
 
 .list-style {
   color: #ffffff;
   text-decoration: underline;
   list-style: none;
+  
 }
 
 .imagem-tittle {
@@ -63,10 +66,27 @@ p {
 }
 
 #menu-logo {
-display: none;
+  display: none;
 }
 
 #request {
   display: none;
 }
-  
+
+#reque {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 0;
+
+  transition: 0.2s;
+}
+
+
+#reque img {
+  width: 200px;
+}
+#reque img:hover{
+  background-color: #996dff;
+  border-radius: 10px;
+}
